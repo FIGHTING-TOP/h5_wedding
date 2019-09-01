@@ -7502,7 +7502,7 @@ default = c
 			}, A.prototype.mute = function() {
 				this._isMuted = !0, this.enterMusic.mute(!0), this.mainMusic.mute(!0), this.photoSound.mute(!0)
 			}, A.prototype._loadAll = function() {
-				this.enterMusic = new a("https://wedstatic-1256209664.cos.ap-shanghai.myqcloud.com/music-enter.mp3", !0), this.mainMusic = new a("https://wedstatic-1256209664.cos.ap-shanghai.myqcloud.com/music-main.mp3", !0), this.photoSound = new a("https://wedstatic-1256209664.cos.ap-shanghai.myqcloud.com/camera.mp3", !1)
+				this.enterMusic = new a("assets/audio/music-enter.mp3", !0), this.mainMusic = new a("assets/audio/music-main.mp3", !0), this.photoSound = new a("assets/audio/camera.mp3", !1)
 			}, A
 		}()
 }, function(A, e, t) {
